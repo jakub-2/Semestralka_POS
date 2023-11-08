@@ -1,7 +1,8 @@
 #include <cstdio>
+#include <iostream>
 
 int main()
 {
-    printf("hello from %s!\n", "Semestralka_POS");
+    std::cout << "hello from " << "Semestralka_POS" << "!" << std::endl;
     return 0;
 }
